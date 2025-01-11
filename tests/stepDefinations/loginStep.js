@@ -11,7 +11,6 @@ const {Given , When , Then }  = createBdd(test);
 // 1. Missing step definition for "tests\features\Login.feature:6:2"
 Given('the user is onto the login page', async ({loginPage}) => {
   loginPage.loadBrowser(process.env.URL)
-  
   });
   
   // 2. Missing step definition for "tests\features\Login.feature:7:2"
